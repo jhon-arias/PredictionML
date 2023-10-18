@@ -3,7 +3,7 @@ library(stringr)
 library(stringi)
 
 load("Emergencias_R.Rdata")
-
+load("Acciones.Rdata")
 #Filtramos las emergencias asociadas con unidades fiscalizables
 #Códigos de emergencia por UF
 #Como el 60% de emrgencias se da en hidrocarburos tomaremos como referencia ese subsector
